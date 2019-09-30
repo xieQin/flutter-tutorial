@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 
 void main () {
@@ -90,7 +88,7 @@ class _CounterState extends State<Counter> {
   void _increment () {
     setState(() {
       _counter ++;
-    })
+    });
   }
 
   @override
