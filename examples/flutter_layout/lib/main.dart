@@ -126,3 +126,8 @@ class _CounterState extends State<Counter> {
     );
   }
 }
+
+class Product {
+  const Product({this.name});
+  final String name;
+}
