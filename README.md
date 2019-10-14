@@ -11,3 +11,8 @@ flutter create project_name
 ```bash
 flutter run
 ```
+
+- fix error
+```bash
+find . | xargs -0 xattr -c
+```
